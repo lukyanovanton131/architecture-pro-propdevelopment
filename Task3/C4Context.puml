@@ -1,0 +1,29 @@
+@startuml
+title PropDevelopment System
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(owner, "Owner", "Собственник")
+
+System(propDevelopment , "PropDevelopment ", "Группа сервисов ЖКУ")
+
+System_Ext(smartIntercom, "Smart intercom", "Интеллектуальный домофон")
+System_Ext(smartBarrier, "Smart Barrier", "Интеллектуальный шлагбаум")
+
+Rel(owner, propDevelopment, "Управление шлагбаумом/домофоном")
+Rel(propDevelopment, smartBarrier, "авторизация клиента propDevelopment у постовщика")
+Rel(propDevelopment, smartBarrier, "команды Открыть/Закрыть")
+Rel(propDevelopment, smartIntercom, "авторизация клиента propDevelopment у постовщика")
+Rel(propDevelopment, smartIntercom, "команда Открыть")
+
+Rel(smartBarrier, propDevelopment, "авторизация клиента smartBarrier у propDevelopment")
+Rel(smartBarrier, propDevelopment, "авторизация по гос. номеру")
+Rel(smartIntercom, propDevelopment, "авторизация клиента smartIntercom у propDevelopment")
+Rel(smartIntercom, propDevelopment, "авторизация по биометрии")
+
+
+
+
+@enduml

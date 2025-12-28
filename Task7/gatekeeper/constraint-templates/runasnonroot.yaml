@@ -1,0 +1,25 @@
+# runasnonroot-constraint-template.yaml
+apiVersion: templates.gatekeeper.sh/v1
+kind: ConstraintTemplate
+metadata:
+  name: k8srequirenonroot
+spec:
+  crd:
+    spec:
+      names:
+        kind: K8sRequireNonRoot
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+        package k8srequirenonroot
+        
+        violation[{"msg": msg, "details": {}}] {
+            container := input.review.object.spec.containers[_]
+            not container.securityContext.runAsNonRoot
+            msg := sprintf("Container %v must have runAsNonRoot set to true", [container.name])
+        }
+        
+        violation[{"msg": msg, "details": {}}] {
+            not input.review.object.spec.securityContext.runAsNonRoot
+            msg := "Pod must have runAsNonRoot set to true in pod security context"
+        }

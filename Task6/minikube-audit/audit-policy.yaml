@@ -1,0 +1,130 @@
+apiVersion: audit.k8s.io/v1
+kind: Policy
+# Политика аудита для обнаружения аномалий и угроз безопасности
+omitStages:
+  - "RequestReceived"
+rules:
+  # 1. КРИТИЧНО: Доступ к секретам (детальное логирование с содержимым)
+  - level: RequestResponse
+    verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["secrets"]
+
+  # 2. КРИТИЧНО: Изменения в RBAC (роли и права доступа)
+  - level: RequestResponse
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: "rbac.authorization.k8s.io"
+        resources: ["roles", "rolebindings", "clusterroles", "clusterrolebindings"]
+
+  # 3. КРИТИЧНО: Просмотр RBAC (для обнаружения разведки)
+  - level: Metadata
+    verbs: ["get", "list", "watch"]
+    resources:
+      - group: "rbac.authorization.k8s.io"
+        resources: ["roles", "rolebindings", "clusterroles", "clusterrolebindings"]
+
+  # 4. ВЫСОКИЙ ПРИОРИТЕТ: Создание и изменение подов (особенно привилегированных)
+  - level: Request
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["pods", "pods/exec", "pods/attach", "pods/portforward"]
+
+  # 5. ВЫСОКИЙ ПРИОРИТЕТ: Выполнение команд в подах (kubectl exec)
+  - level: Request
+    verbs: ["create"]
+    resources:
+      - group: ""
+        resources: ["pods/exec", "pods/attach"]
+
+  # 6. ВЫСОКИЙ ПРИОРИТЕТ: ServiceAccounts (создание аккаунтов)
+  - level: Request
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["serviceaccounts"]
+
+  # 7. ВЫСОКИЙ ПРИОРИТЕТ: ConfigMaps (могут содержать конфигурацию)
+  - level: Metadata
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["configmaps"]
+
+  # 8. СРЕДНИЙ ПРИОРИТЕТ: Deployments, DaemonSets, StatefulSets
+  - level: Metadata
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: "apps"
+        resources: ["deployments", "daemonsets", "statefulsets", "replicasets"]
+
+  # 9. СРЕДНИЙ ПРИОРИТЕТ: Services и Ingress (сетевой доступ)
+  - level: Metadata
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["services"]
+      - group: "networking.k8s.io"
+        resources: ["ingresses", "networkpolicies"]
+
+  # 10. СРЕДНИЙ ПРИОРИТЕТ: PersistentVolumes (хранилище данных)
+  - level: Metadata
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["persistentvolumes", "persistentvolumeclaims"]
+
+  # 11. КРИТИЧНО: Аутентификация (успехи и неудачи)
+  - level: Metadata
+    verbs: ["*"]
+    userGroups: ["system:unauthenticated"]
+
+  # 12. Мониторинг системных компонентов
+  - level: Metadata
+    verbs: ["create", "update", "patch", "delete"]
+    resources:
+      - group: ""
+        resources: ["nodes", "namespaces"]
+
+  # 13. КРИТИЧНО: Удаление критичных ресурсов
+  - level: RequestResponse
+    verbs: ["delete", "deletecollection"]
+    resources:
+      - group: ""
+        resources: ["*"]
+      - group: "apps"
+        resources: ["*"]
+      - group: "rbac.authorization.k8s.io"
+        resources: ["*"]
+
+  # 14. Не логировать частые операции чтения (уменьшение объема)
+  - level: None
+    verbs: ["get", "list", "watch"]
+    resources:
+      - group: ""
+        resources: ["events", "endpoints"]
+      - group: "coordination.k8s.io"
+        resources: ["leases"]
+
+  # 15. Не логировать health checks
+  - level: None
+    users: ["system:kube-proxy"]
+    verbs: ["watch"]
+    resources:
+      - group: ""
+        resources: ["endpoints", "services"]
+
+  # 16. Не логировать служебные запросы kubelet
+  - level: None
+    users: ["kubelet"]
+    verbs: ["get"]
+    resources:
+      - group: ""
+        resources: ["nodes"]
+
+  # 17. Catch-all: Все остальные операции на уровне Metadata
+  - level: Metadata
+    omitStages:
+      - "RequestReceived"

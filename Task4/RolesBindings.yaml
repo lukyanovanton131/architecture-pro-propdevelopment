@@ -1,0 +1,73 @@
+# RoleBinding для группы secrets-managers
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: secrets-managers-binding
+  namespace: security-vault
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: secrets-manager
+subjects:
+- kind: ServiceAccount
+  name: secrets-managers-sa
+  namespace: security-vault
+---
+# RoleBinding для группы secrets-viewers
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: secrets-viewers-binding
+  namespace: security-vault
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: secrets-viewers
+subjects:
+- kind: ServiceAccount
+  name: secrets-viewers-sa
+  namespace: security-vault
+---  
+# RoleBinding для группы zhku-viewers
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: zhku-viewers-binding
+  namespace: zhku-services
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: view
+subjects:
+- kind: ServiceAccount
+  name: zhku-viewers-sa
+  namespace: zhku-services
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: client-viewers-binding
+  namespace: client-services
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: view
+subjects:
+- kind: ServiceAccount
+  name: client-viewers-sa
+  namespace: client-services
+---
+# Используем встроенную роль cluster-admin
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: cluster-admin-binding
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: cluster-admin-sa
+  namespace: default  
+

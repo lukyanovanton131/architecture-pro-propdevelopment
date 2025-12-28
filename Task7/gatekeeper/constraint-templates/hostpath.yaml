@@ -1,0 +1,25 @@
+# readonlyrootfs-constraint-template.yaml
+apiVersion: templates.gatekeeper.sh/v1
+kind: ConstraintTemplate
+metadata:
+  name: k8sdenyhostpath
+spec:
+  crd:
+    spec:
+      names:
+        kind: K8sDenyHostPath
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+        package k8sdenyhostpath
+        
+        violation[{"msg": msg, "details": {}}] {
+            container := input.review.object.spec.containers[_]
+            not container.securityContext.readOnlyRootFilesystem
+            msg := sprintf("Container %v must have readOnlyRootFilesystem set to true", [container.name])
+        }
+                violation[{"msg": msg, "details": {}}] {
+            container := input.review.object.spec.containers[_]
+            not container.securityContext.readOnlyRootFilesystem
+            msg := sprintf("Container %v must have readOnlyRootFilesystem set to true", [container.name])
+        }
