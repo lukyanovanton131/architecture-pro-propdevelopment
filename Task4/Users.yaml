@@ -1,0 +1,30 @@
+# Role для управления секретами в security-vault
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cluster-admin-sa
+  namespace: default
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: secrets-managers-sa
+  namespace: security-vault
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: secrets-viewers-sa
+  namespace: security-vault  
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: zhku-viewers-sa
+  namespace: zhku-services 
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: client-viewers-sa
+  namespace: client-services 

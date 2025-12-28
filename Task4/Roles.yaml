@@ -1,0 +1,47 @@
+# Role для управления секретами в security-vault
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: secrets-manager
+  namespace: security-vault
+rules:
+- apiGroups: [""]
+  resources: ["secrets"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+- apiGroups: [""]
+  resources: ["configmaps"]
+  verbs: ["get", "list", "watch"]  # Для конфигурации секретов
+---
+# Role для чтения секретов в security-vault
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: secrets-viewers
+  namespace: security-vault
+rules:
+- apiGroups: [""]
+  resources: ["secrets"]
+  verbs: ["get", "list", "watch"]
+---  
+# Role для просмотра ресурсов домена Група сервисов ЖКУ
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: zhku-viewers
+  namespace: zhku-services
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list", "watch"]
+---  
+# Role для просмотра ресурсов домена Група сервисов Клиентов
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: client-viewers
+  namespace: client-services
+rules:
+- apiGroups: [""]
+  resources: ["pods"]
+  verbs: ["get", "list", "watch"]
+

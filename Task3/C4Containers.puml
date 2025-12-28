@@ -1,0 +1,58 @@
+@startuml
+title PropDevelopment System
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(owner, "Owner", "Собственник")
+
+
+
+System(authService, "auth-service-2", "Сервис аутентификации собственников")
+System_Ext(smartIntercom, "Smart intercom", "Интеллектуальный домофон")
+System_Ext(smartBarrier, "Smart Barrier", "Интеллектуальный шлагбаум")
+
+Container_Boundary(PropDevelopment, "Группа сервисов ЖКУ") {
+  Container(tenantCoreApp, "tenant-core-app", "Kotlin, SpringBoot")
+  
+  Container(barrierService, "Сервис управления шлагбаумом", ".NET Core")
+  Container(barrierGateway, "Шлюз Интеллектуального шлагбаума", ".NET Core")
+  Container(barrierServiceDB, "БД", "Postgres")
+  
+  Container(intercomService, "Сервис управления домофоном", ".NET Core")
+  Container(intercomGateway, "Шлюз Интеллектуального домофона", ".NET Core")
+  Container(intercomServiceDB, "БД", "Postgres")
+  
+  Container(apiGateway, "ApiGateway", ".NET Core")
+}
+
+Rel(owner, tenantCoreApp, "")
+
+Rel(tenantCoreApp, authService, "Аутентификация собственника")
+
+Rel(tenantCoreApp, intercomService, "Управление домофоном")
+Rel(intercomService, intercomServiceDB, "Чтение")
+Rel(intercomService, intercomGateway, "Управление домофоном")
+Rel(intercomGateway, smartIntercom, "команда Открыть")
+Rel(smartIntercom, apiGateway, "авторизация команды Открыть")
+
+Rel(tenantCoreApp, barrierService, "Управление шлагбаумом")
+Rel(barrierService, barrierServiceDB, "Чтение")
+Rel(barrierService, barrierGateway, "Управление шлагбаумом")
+Rel(barrierGateway, smartBarrier, "команды Открыть/Закрыть")
+Rel(smartBarrier, apiGateway, "авторизация команды Открыть/Закрыть")
+
+Rel(smartBarrier, apiGateway, "Аутентификация клиента smartBarrier у propDevelopment по гос. номеру")
+Rel(smartIntercom, apiGateway, "Аутентификация клиента smartIntercom у propDevelopment по биометрии")
+
+Rel(apiGateway, authService, "авторизация smartBarrier/smartIntercom")
+
+Rel(apiGateway, barrierService, "авторизация")
+Rel(apiGateway, intercomService, "авторизация")
+
+Rel(barrierGateway, smartBarrier, "авторизация клиента propDevelopment у постовщика")
+Rel(intercomGateway, smartIntercom, "авторизация клиента propDevelopment у постовщика")
+
+
+@enduml

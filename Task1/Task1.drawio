@@ -1,0 +1,575 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Страница-1" id="4ywR9Rnx7ihrT5pUwGO0">
+    <mxGraphModel dx="5992" dy="2778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-7" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Bu8ZkCM2TYIHOZoOncXn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-8" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Bu8ZkCM2TYIHOZoOncXn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-9" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Bu8ZkCM2TYIHOZoOncXn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Безопасность данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Публичные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="-430" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Внутренние данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="-50" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve-breaks;&quot;&gt;Секретные&amp;nbsp;&lt;/span&gt; данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="1210" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve-breaks;&quot;&gt;Конфиденциальные&lt;/span&gt; данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="640" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-6" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Bu8ZkCM2TYIHOZoOncXn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Данные, раскрытие которых не наносит ущерба компании и может быть открыто для всех.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="-750" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;noLabel=1;" value="List" vertex="1">
+          <mxGeometry height="230" width="570" x="-750" y="470" as="geometry">
+            <mxRectangle height="30" width="60" x="-750" y="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-13" parent="Bu8ZkCM2TYIHOZoOncXn-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Описания жилых комплексов и объектов недвижимости&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;на онлайн-витрине (планировки, площади, общие фото, инфраструктура)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-14" parent="Bu8ZkCM2TYIHOZoOncXn-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Общая информация от управляющей компании&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;для собственников (новости ЖК, правила проживания, графики уборки территории)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-15" parent="Bu8ZkCM2TYIHOZoOncXn-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Информация о текущем и капитальном ремонте общего имущества&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(факты и сроки проведения работ, без детальной финансовой отчётности)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="570" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Данные, не предназначенные для широкой публики. Их разглашение может нанести ограниченный ущерб репутации или операционной деятельности&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="-170" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;glass=0;noLabel=1;" value="List" vertex="1">
+          <mxGeometry height="310" width="570" x="-170" y="470" as="geometry">
+            <mxRectangle height="30" width="60" x="-750" y="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-18" parent="Bu8ZkCM2TYIHOZoOncXn-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Внутренние отчёты и аналитика&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;из BI-системы домена &quot;Дата&quot; (эффективность продаж, анализ рынка)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-19" parent="Bu8ZkCM2TYIHOZoOncXn-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Внутренние процессы и документация&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(инструкции для сотрудников, не относящиеся к ключевым бизнес-процессам)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-20" parent="Bu8ZkCM2TYIHOZoOncXn-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Данные о внутренней работе IT-сервисов&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(логи работы, не содержащие персональных или финансовых данных)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="570" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-21" parent="Bu8ZkCM2TYIHOZoOncXn-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;strong style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span&gt;Общая организационная структура и контакты отделов&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;(не персональные данные сотрудников)&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="570" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критически важные данные, защищаемые законодательством и договорами. Их утечка ведёт к значительным финансовым, репутационным потерям и судебным искам&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="420" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;glass=0;noLabel=1;" value="List" vertex="1">
+          <mxGeometry height="420" width="570" x="420" y="470" as="geometry">
+            <mxRectangle height="30" width="60" x="-750" y="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-24" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Персональные данные клиентов и собственников &lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;(&lt;/span&gt;&lt;ul style=&quot;margin: 4px 0px 0px; padding-left: 18px; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li&gt;&lt;p class=&quot;ds-markdown-paragraph&quot; style=&quot;margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px !important;&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;Из CRM:&lt;/span&gt;&amp;nbsp;ФИО, телефон, электронная почта.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 6px;&quot;&gt;&lt;p class=&quot;ds-markdown-paragraph&quot; style=&quot;margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px !important;&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;Из расширенной формы бронирования:&lt;/span&gt;&amp;nbsp;финансовые возможности, семейный статус, цели покупки.&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 6px;&quot;&gt;&lt;p class=&quot;ds-markdown-paragraph&quot; style=&quot;margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px !important;&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;Из tenant-core-app:&lt;/span&gt;&amp;nbsp;данные о собственниках для управления ЖКУ&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="570" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-25" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Данные о сделках:&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;цены покупки/продажи, условия договоров, этапы сделок&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="570" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-26" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Финансовые данные:&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;бухгалтерская отчётность, платёжные реквизиты клиентов и контрагентов&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-27" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Архитектура и исходный код ключевых систем&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(особенно интеграций)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="570" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-28" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Данные для управления &quot;Умным домом&quot;:&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;логи доступа к квартирам, расписания работы автоматики.&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-29" parent="Bu8ZkCM2TYIHOZoOncXn-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Детальные планы и схемы инженерных систем зданий&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="570" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Данные, утечка которых может привести к катастрофическим последствиям для бизнеса: его полной остановке, огромным штрафам или уголовной ответственности руководства&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="1010" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;glass=0;noLabel=1;" value="List" vertex="1">
+          <mxGeometry height="230" width="570" x="1010" y="470" as="geometry">
+            <mxRectangle height="30" width="60" x="-750" y="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-32" parent="Bu8ZkCM2TYIHOZoOncXn-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Криптографические ключи и корневые сертификаты&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;, используемые для цифровой подписи юридически значимых документов&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-33" parent="Bu8ZkCM2TYIHOZoOncXn-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Ключи, сертификаты и пароли&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;для интеграции с&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;государственными органами&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(ФНС, Росреестр и т.д.) в рамках онлайн-сделки&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="570" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-34" parent="Bu8ZkCM2TYIHOZoOncXn-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;Системные пароли&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;для управления всей инфраструктурой &quot;Умного дома&quot;, дающие полный контроль над системами безопасности жилых комплексов&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="570" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-38" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="Bu8ZkCM2TYIHOZoOncXn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-39" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-40" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.553;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" target="Bu8ZkCM2TYIHOZoOncXn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-41" edge="1" parent="1" source="Bu8ZkCM2TYIHOZoOncXn-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.765;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="Bu8ZkCM2TYIHOZoOncXn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-72" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;spacingLeft=2;" value="" vertex="1">
+          <mxGeometry height="900" width="570" x="-750" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-73" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="47" width="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-74" parent="Bu8ZkCM2TYIHOZoOncXn-73" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Риск" vertex="1">
+          <mxGeometry height="47" width="130" as="geometry">
+            <mxRectangle height="47" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-75" parent="Bu8ZkCM2TYIHOZoOncXn-73" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Уровень серьезности" vertex="1">
+          <mxGeometry height="47" width="190" x="130" as="geometry">
+            <mxRectangle height="47" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-76" parent="Bu8ZkCM2TYIHOZoOncXn-73" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Обоснование" vertex="1">
+          <mxGeometry height="47" width="250" x="320" as="geometry">
+            <mxRectangle height="47" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-77" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="223" width="570" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-78" parent="Bu8ZkCM2TYIHOZoOncXn-77" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Утечка данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="223" width="130" as="geometry">
+            <mxRectangle height="223" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-79" parent="Bu8ZkCM2TYIHOZoOncXn-77" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Незначительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="223" width="190" x="130" as="geometry">
+            <mxRectangle height="223" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-80" parent="Bu8ZkCM2TYIHOZoOncXn-77" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;horizontal=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Эти данные и так предназначены для публикации. Их преждевременное или неконтролируемое раскрытие (например, утечка плана рекламной кампании) может нанести лишь незначительный репутационный ущерб или дать минимальное преимущество конкурентам.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="223" width="250" x="320" as="geometry">
+            <mxRectangle height="223" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-81" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="190" width="570" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-82" parent="Bu8ZkCM2TYIHOZoOncXn-81" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Потеря данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="130" as="geometry">
+            <mxRectangle height="190" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-83" parent="Bu8ZkCM2TYIHOZoOncXn-81" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="130" as="geometry">
+            <mxRectangle height="190" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-84" parent="Bu8ZkCM2TYIHOZoOncXn-81" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Потеря каталога недвижимости, описаний, графиков ремонта парализует основную бизнес-деятельность — привлечение клиентов и информирование собственников. Приводит к прямым финансовым потерям (срыв сделок) и репутационному ущербу.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="250" x="320" as="geometry">
+            <mxRectangle height="190" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-85" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="170" width="570" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-86" parent="Bu8ZkCM2TYIHOZoOncXn-85" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Искажение данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="130" as="geometry">
+            <mxRectangle height="170" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-87" parent="Bu8ZkCM2TYIHOZoOncXn-85" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="130" as="geometry">
+            <mxRectangle height="170" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-88" parent="Bu8ZkCM2TYIHOZoOncXn-85" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Размещение неверных цен, планировок или сроков ремонта на витрине приведет к юридическим спорам с клиентами («ввели в заблуждение»), финансовым претензиям и потере доверия. Требует ресурсов на исправление.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="320" as="geometry">
+            <mxRectangle height="170" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-89" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="130" width="570" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-90" parent="Bu8ZkCM2TYIHOZoOncXn-89" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Некачественные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" as="geometry">
+            <mxRectangle height="130" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-91" parent="Bu8ZkCM2TYIHOZoOncXn-89" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="190" x="130" as="geometry">
+            <mxRectangle height="130" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-92" parent="Bu8ZkCM2TYIHOZoOncXn-89" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Размытые фото, неполные описания квартир, устаревшая информация об инфраструктуре резко снижают конверсию на онлайн-витрине. Прямо влияют на выручку от продаж.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="320" as="geometry">
+            <mxRectangle height="130" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-93" parent="Bu8ZkCM2TYIHOZoOncXn-72" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="140" width="570" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-94" parent="Bu8ZkCM2TYIHOZoOncXn-93" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Обесценивание данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="130" as="geometry">
+            <mxRectangle height="140" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-95" parent="Bu8ZkCM2TYIHOZoOncXn-93" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Незначительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="130" as="geometry">
+            <mxRectangle height="140" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-96" parent="Bu8ZkCM2TYIHOZoOncXn-93" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Публичные данные быстро устаревают (актуальность объекта, завершённость ремонта). Их коммерческая ценность носит временный характер, и потеря этой ценности — часть нормального бизнес-цикла.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="320" as="geometry">
+            <mxRectangle height="140" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-101" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;spacingLeft=2;" value="" vertex="1">
+          <mxGeometry height="830" width="570" x="-170" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-102" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="47" width="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-103" parent="Bu8ZkCM2TYIHOZoOncXn-102" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Риск" vertex="1">
+          <mxGeometry height="47" width="130" as="geometry">
+            <mxRectangle height="47" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-104" parent="Bu8ZkCM2TYIHOZoOncXn-102" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Уровень серьезности" vertex="1">
+          <mxGeometry height="47" width="190" x="130" as="geometry">
+            <mxRectangle height="47" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-105" parent="Bu8ZkCM2TYIHOZoOncXn-102" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Обоснование" vertex="1">
+          <mxGeometry height="47" width="250" x="320" as="geometry">
+            <mxRectangle height="47" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-106" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="183" width="570" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-107" parent="Bu8ZkCM2TYIHOZoOncXn-106" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Утечка данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="183" width="130" as="geometry">
+            <mxRectangle height="183" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-108" parent="Bu8ZkCM2TYIHOZoOncXn-106" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="183" width="190" x="130" as="geometry">
+            <mxRectangle height="183" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-109" parent="Bu8ZkCM2TYIHOZoOncXn-106" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;horizontal=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Попадание внутренних аналитических отчётов, структур команд или служебной информации к конкурентам раскрывает стратегию, слабые места и операционные модели&lt;/span&gt;" vertex="1">
+          <mxGeometry height="183" width="250" x="320" as="geometry">
+            <mxRectangle height="183" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-110" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="150" width="570" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-111" parent="Bu8ZkCM2TYIHOZoOncXn-110" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Потеря данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="130" as="geometry">
+            <mxRectangle height="150" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-112" parent="Bu8ZkCM2TYIHOZoOncXn-110" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="190" x="130" as="geometry">
+            <mxRectangle height="150" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-113" parent="Bu8ZkCM2TYIHOZoOncXn-110" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Потеря исторических отчётов, аналитики, внутренней документации замедляет принятие решений, снижает эффективность и требует затрат на восстановление. Может привести к повторению прошлых ошибок.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="250" x="320" as="geometry">
+            <mxRectangle height="150" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-114" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="190" width="570" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-115" parent="Bu8ZkCM2TYIHOZoOncXn-114" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Искажение данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="130" as="geometry">
+            <mxRectangle height="190" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-116" parent="Bu8ZkCM2TYIHOZoOncXn-114" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="130" as="geometry">
+            <mxRectangle height="190" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-117" parent="Bu8ZkCM2TYIHOZoOncXn-114" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Фальсификация или ошибки во внутренней отчётности (например, в BI-системе домена «Дата») приводят к принятию&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;стратегически неверных управленческих решений&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;. Это может повлечь инвестиции в неверное направление, убытки и потерю рыночных позиций.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="250" x="320" as="geometry">
+            <mxRectangle height="190" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-118" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="130" width="570" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-119" parent="Bu8ZkCM2TYIHOZoOncXn-118" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Некачественные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" as="geometry">
+            <mxRectangle height="130" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-120" parent="Bu8ZkCM2TYIHOZoOncXn-118" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="190" x="130" as="geometry">
+            <mxRectangle height="130" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-121" parent="Bu8ZkCM2TYIHOZoOncXn-118" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Неполные или несвоевременные внутренние отчёты дезориентируют менеджеров, снижают прогнозную точность и эффективность работы доменов (продажи, ЖКУ, финансы).&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="320" as="geometry">
+            <mxRectangle height="130" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-122" parent="Bu8ZkCM2TYIHOZoOncXn-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="130" width="570" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-123" parent="Bu8ZkCM2TYIHOZoOncXn-122" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Обесценивание данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" as="geometry">
+            <mxRectangle height="130" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-124" parent="Bu8ZkCM2TYIHOZoOncXn-122" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Незначительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="190" x="130" as="geometry">
+            <mxRectangle height="130" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-125" parent="Bu8ZkCM2TYIHOZoOncXn-122" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Как и публичные, многие внутренние данные со временем теряют актуальность. Их архивное хранение не критично для текущих операций.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="320" as="geometry">
+            <mxRectangle height="130" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-126" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;spacingLeft=2;" value="" vertex="1">
+          <mxGeometry height="1020.0000000000009" width="570" x="420" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-127" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="47" width="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-128" parent="Bu8ZkCM2TYIHOZoOncXn-127" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Риск" vertex="1">
+          <mxGeometry height="47" width="130" as="geometry">
+            <mxRectangle height="47" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-129" parent="Bu8ZkCM2TYIHOZoOncXn-127" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Уровень серьезности" vertex="1">
+          <mxGeometry height="47" width="190" x="130" as="geometry">
+            <mxRectangle height="47" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-130" parent="Bu8ZkCM2TYIHOZoOncXn-127" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Обоснование" vertex="1">
+          <mxGeometry height="47" width="250" x="320" as="geometry">
+            <mxRectangle height="47" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-131" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="213" width="570" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-132" parent="Bu8ZkCM2TYIHOZoOncXn-131" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Утечка данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="213" width="130" as="geometry">
+            <mxRectangle height="213" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-133" parent="Bu8ZkCM2TYIHOZoOncXn-131" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="213" width="190" x="130" as="geometry">
+            <mxRectangle height="213" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-134" parent="Bu8ZkCM2TYIHOZoOncXn-131" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;horizontal=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Утечка ПДн клиентов и собственников влечёт&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;огромные штрафы по 152-ФЗ&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;, коллективные иски, невосполнимую потерю репутации и доверия. Утечка коммерческой тайны (цены, себестоимость) подрывает конкурентные позиции. Утечка данных «Умного дома» ставит под угрозу физическую безопасность собственников.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="213" width="250" x="320" as="geometry">
+            <mxRectangle height="213" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-135" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="200" width="570" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-136" parent="Bu8ZkCM2TYIHOZoOncXn-135" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Потеря данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="130" as="geometry">
+            <mxRectangle height="200" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-137" parent="Bu8ZkCM2TYIHOZoOncXn-135" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="190" x="130" as="geometry">
+            <mxRectangle height="200" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-138" parent="Bu8ZkCM2TYIHOZoOncXn-135" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Потеря баз данных CRM, финансовых транзакций или истории сделок останавливает бизнес. Невозможно обслуживать клиентов, проводить платежи ЖКУ, отчитываться. Ведёт к прямому нарушению договоров с клиентами и собственниками, судебным искам и регуляторным санкциям.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="250" x="320" as="geometry">
+            <mxRectangle height="200" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-139" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="210" width="570" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-140" parent="Bu8ZkCM2TYIHOZoOncXn-139" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Искажение данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="210" width="130" as="geometry">
+            <mxRectangle height="210" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-141" parent="Bu8ZkCM2TYIHOZoOncXn-139" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="210" width="190" x="130" as="geometry">
+            <mxRectangle height="210" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-142" parent="Bu8ZkCM2TYIHOZoOncXn-139" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Ошибка в реквизитах платежа, в данных договора купли-продажи или в лицевом счёте собственника ведёт к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;финансовым потерям&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(деньги ушли не туда),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;юридической недействительности сделок&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и тяжелым конфликтам с клиентами. Исправление требует огромных судебных и административных издержек.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="320" as="geometry">
+            <mxRectangle height="210" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-143" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="150" width="570" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-144" parent="Bu8ZkCM2TYIHOZoOncXn-143" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Некачественные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="130" as="geometry">
+            <mxRectangle height="150" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-145" parent="Bu8ZkCM2TYIHOZoOncXn-143" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="190" x="130" as="geometry">
+            <mxRectangle height="150" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-146" parent="Bu8ZkCM2TYIHOZoOncXn-143" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Некорректно заполненные поля в CRM (дубли клиентов, неверные контакты) снижают эффективность продаж и маркетинга, приводят к ошибкам в коммуникации, раздражают клиентов. Прямо влияет на конверсию и уровень сервиса.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="250" x="320" as="geometry">
+            <mxRectangle height="150" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-147" parent="Bu8ZkCM2TYIHOZoOncXn-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="200" width="570" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-148" parent="Bu8ZkCM2TYIHOZoOncXn-147" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Обесценивание данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="130" as="geometry">
+            <mxRectangle height="200" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-149" parent="Bu8ZkCM2TYIHOZoOncXn-147" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Значительный&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="190" x="130" as="geometry">
+            <mxRectangle height="200" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-150" parent="Bu8ZkCM2TYIHOZoOncXn-147" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Со временем контактные данные клиентов устаревают, их финансовый профиль меняется. Неактуальная база для cross-sell/up-sell (например, предложение новой недвижимости старым клиентам) резко теряет эффективность, маркетинговые бюджеты тратятся впустую.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="250" x="320" as="geometry">
+            <mxRectangle height="200" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-155" parent="1" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;spacingLeft=2;" value="" vertex="1">
+          <mxGeometry height="1040.000000000002" width="570" x="1010" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-156" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="47" width="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-157" parent="Bu8ZkCM2TYIHOZoOncXn-156" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Риск" vertex="1">
+          <mxGeometry height="47" width="130" as="geometry">
+            <mxRectangle height="47" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-158" parent="Bu8ZkCM2TYIHOZoOncXn-156" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Уровень серьезности" vertex="1">
+          <mxGeometry height="47" width="190" x="130" as="geometry">
+            <mxRectangle height="47" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-159" parent="Bu8ZkCM2TYIHOZoOncXn-156" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" value="Обоснование" vertex="1">
+          <mxGeometry height="47" width="250" x="320" as="geometry">
+            <mxRectangle height="47" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-160" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="243" width="570" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-161" parent="Bu8ZkCM2TYIHOZoOncXn-160" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Утечка данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="243" width="130" as="geometry">
+            <mxRectangle height="243" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-162" parent="Bu8ZkCM2TYIHOZoOncXn-160" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="243" width="190" x="130" as="geometry">
+            <mxRectangle height="243" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-163" parent="Bu8ZkCM2TYIHOZoOncXn-160" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;horizontal=1;spacingLeft=7;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Наивысший уровень угрозы.&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;Компрометация ключей для интеграции с госорганами (Росреестр, ФНС) приведёт к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;полной остановке онлайн-сделок&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;— ключевому digital-продукту компании. Возможна отзыв лицензии, уголовная ответственность. Утечка мастер-ключей «Умного дома» позволяет злоумышленнику получить физический контроль над сотнями квартир.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="243" width="250" x="320" as="geometry">
+            <mxRectangle height="243" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-164" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="240" width="570" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-165" parent="Bu8ZkCM2TYIHOZoOncXn-164" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Потеря данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="240" width="130" as="geometry">
+            <mxRectangle height="240" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-166" parent="Bu8ZkCM2TYIHOZoOncXn-164" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="240" width="190" x="130" as="geometry">
+            <mxRectangle height="240" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-167" parent="Bu8ZkCM2TYIHOZoOncXn-164" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Потеря корневых сертификатов или мастер-ключей шифрования&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;необратима&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;. Это означает&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;невозможность расшифровать&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;собственные важные данные (например, резервные копии),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;полный сбой интеграций&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и необходимость крайне дорогостоящего и долгого процесса перевыпуска всех ключей в сотрудничестве с государственными органами.&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="240" width="250" x="320" as="geometry">
+            <mxRectangle height="240" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-168" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="100" width="570" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-169" parent="Bu8ZkCM2TYIHOZoOncXn-168" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Искажение данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="130" as="geometry">
+            <mxRectangle height="100" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-170" parent="Bu8ZkCM2TYIHOZoOncXn-168" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="130" as="geometry">
+            <mxRectangle height="100" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-171" parent="Bu8ZkCM2TYIHOZoOncXn-168" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;font color=&quot;#0f1115&quot; face=&quot;quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Изменение адресатов или сумм в выставленных счетах влияет на финансовые потери и репутацию&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="250" x="320" as="geometry">
+            <mxRectangle height="100" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-172" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="150" width="570" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-173" parent="Bu8ZkCM2TYIHOZoOncXn-172" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Некачественные данные&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="130" as="geometry">
+            <mxRectangle height="150" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-174" parent="Bu8ZkCM2TYIHOZoOncXn-172" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Неприменимо&lt;/span&gt;" vertex="1">
+          <mxGeometry height="150" width="190" x="130" as="geometry">
+            <mxRectangle height="150" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-175" parent="Bu8ZkCM2TYIHOZoOncXn-172" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="" vertex="1">
+          <mxGeometry height="150" width="250" x="320" as="geometry">
+            <mxRectangle height="150" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-176" parent="Bu8ZkCM2TYIHOZoOncXn-155" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;align=left;" vertex="1">
+          <mxGeometry height="260" width="570" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-177" parent="Bu8ZkCM2TYIHOZoOncXn-176" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Обесценивание данных&lt;/span&gt;" vertex="1">
+          <mxGeometry height="260" width="130" as="geometry">
+            <mxRectangle height="260" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-178" parent="Bu8ZkCM2TYIHOZoOncXn-176" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Критический&lt;/span&gt;" vertex="1">
+          <mxGeometry height="260" width="190" x="130" as="geometry">
+            <mxRectangle height="260" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu8ZkCM2TYIHOZoOncXn-179" parent="Bu8ZkCM2TYIHOZoOncXn-176" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=left;whiteSpace=wrap;html=1;spacingLeft=7;" value="&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Ценность этих данных вечна до момента их компрометации.&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;Однако, если срок действия сертификата истёк, а процедура его обновления не была проведена, данные (сертификат) мгновенно обесцениваются, что приводит к остановке зависящих от него процессов (интеграций). Риск связан с&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;просрочкой&lt;/span&gt;&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и некачественным управлением жизненным циклом.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="260" width="250" x="320" as="geometry">
+            <mxRectangle height="260" width="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

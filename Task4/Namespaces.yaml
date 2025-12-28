@@ -1,0 +1,24 @@
+# Структура неймспейсов
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: security-vault  # Для хранения секретов
+  labels:
+    security-tier: highest
+    type: security
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: zhku-services  # Для сервисов ЖКУ
+  labels:
+    domain: zhku
+    environment: production
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: client-services  # Для сервисов клиентов
+  labels:
+    domain: client
+    environment: production
